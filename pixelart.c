@@ -35,11 +35,35 @@ void loop(void)
       display.drawLine(15,3 , 16, 3, RED);
       display.drawLine(16 ,3 , 17, 3, BLACK);
       display.drawLine(19 ,3 , 20, 3, RED);
-      display.drawLine(21 ,3 , 21, 5, BLACK);
+      display.drawLine(21 ,5 , 21, 5, BLACK);
+      display.drawLine(15, 4, 20, 4, RED);
+      display.drawLine(15, 5, 20, 5, RED);
+      display.drawLine(15,6,BLACK);
+      display.drawLine(20,6,BLACK);
+      display.drawLine(16, 6, 19, 6, BLACK);
+      display.drawLine(16, 7, BLACK);
+      display.drawLine(19, 7, BLACK);
+      display.drawLine( 17, 7, 18, 7, RED);
+      display.drawLine( 17, 8, 18, 8, BLACK);
       
-  
       display.display();
         }
     else { 
-    digitalWrite(led10, LOW); 
+     display.drawLine(15,2 , 16, 2, BLACK);
+      display.drawLine(19, 2, 20, 2, BLACK);
+      display.drawLine(14, 3, 14, 5, BLACK);
+      display.drawLine(15,3 , 16, 3, WHITE);
+      display.drawLine(16 ,3 , 17, 3, BLACK);
+      display.drawLine(19 ,3 , 20, 3, WHITE);
+      display.drawLine(21 ,5 , 21, 5, BLACK);
+      display.drawLine(15, 4, 20, 4, WHITE);
+      display.drawLine(15, 5, 20, 5, WHITE);
+      display.drawLine(15,6,BLACK);
+      display.drawLine(20,6,BLACK);
+      display.drawLine(16, 6, 19, 6, BLACK);
+      display.drawLine(16, 7, BLACK);
+      display.drawLine(19, 7, BLACK);
+      display.drawLine( 17, 7, 18, 7, WHITE);
+      display.drawLine( 17, 8, 18, 8, BLACK);
+    }
     }
